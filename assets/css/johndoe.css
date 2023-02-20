@@ -4467,12 +4467,14 @@ input[type="button"].btn-block {
 
 .nav-link {
   display: block;
+  transition: 0.5s;
   padding: 0.5rem 1rem;
+  
 }
 
 .nav-link:hover, .nav-link:focus {
   text-decoration: none;
-  color:#e0237b !important;
+  transform: scale(1.5);
 }
 
 .nav-link.disabled {
