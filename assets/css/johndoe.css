@@ -11391,7 +11391,8 @@ pre .code {
 }
 
 .social-icons .social-link:hover {
-  color: #F85C70;
+  
+  filter: drop-shadow(3px 5px 20px rgb(0 0 0 / 1))
 }
 
 .navbar {
